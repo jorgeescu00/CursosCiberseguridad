@@ -1,0 +1,14 @@
+Módulo: Puesta en Producción Segura Curso Especialización Ciberseguridad
+Tema 5 Curso 2024-25
+IES JUAN BOSCO Página 20 de 38
+Otro ejemplo: si usamos la etiqueta “1.37.1-fpm-alpine”, además de la última versión y
+que tiene instalado php-fpm, nos indica que la imagen base que se ha usado para crear
+la imagen es una distribución “alpine” que se caracteriza por ser una distribución Linux
+muy liviana.
+Instalación de distintas versiones de “mediawiki”
+Vamos a crear distintos contenedores usando etiquetas distintas al indicar el nombre
+de la imagen, posteriormente accederemos a la aplicación y podremos ver la versión
+instalada:
+En primer lugar vamos a instalar la última versión:
+docker run -d -p 8080:80 --name mediawiki1 mediawiki
+Si accedemos a la ip de nu
