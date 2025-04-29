@@ -12,3 +12,6 @@ instalada:
 En primer lugar vamos a instalar la última versión:
 docker run -d -p 8080:80 --name mediawiki1 mediawiki
 Si accedemos a la ip de nu
+
+
+NUEVA LINEA
